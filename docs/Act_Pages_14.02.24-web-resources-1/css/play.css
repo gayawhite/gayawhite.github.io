@@ -40,6 +40,10 @@ nav {
   font-size: 0.8rem;
 }
 
+/*input[type="checkbox"] {
+  display: none;
+}*/
+
 nav ul {
   /*list-style: none;
   display: flex;
@@ -101,6 +105,11 @@ nav ul li ul li {
   flex: 0 1 auto;
   width: 8rem; /* the same as the value for flex-basis on the parent li */
 }
+
+li.home {
+  margin-right: auto;
+  float: left;
+  }
 
 /* now for the smaller displays */
 
@@ -243,6 +252,14 @@ img {
   font-size: 2rem;
   padding-top: 1rem;
 
+}
+.backtotop {
+  position: fixed;
+  bottom: 2px;
+  right: 8px;
+  opacity: 0.5;
+  font-size: 50px;
+  z-index: 102;
 }
 .character {
   color:#540027;
