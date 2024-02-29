@@ -46,10 +46,18 @@ section {
   max-height: 500px;
 }
 
+ul.a {
+  list-style-type: square;
+  list-style-position: inside;
+  margin: auto;
+}
+
+
 img {
   border: solid #1e051f;
-  position: center;
-  margin: 15px;
+  margin: auto;
+  width: 340px;
+  height: 400px;
 }
 
 
