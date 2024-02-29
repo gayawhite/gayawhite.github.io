@@ -11,7 +11,7 @@ html {
   height: 100%;
   background-image: linear-gradient(to right, #d138ca, #8f5b7f, #aa517a);
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  scroll-padding-top: 70px;
 }
 
 body {
@@ -36,14 +36,21 @@ nav {
   top: 0;
   left: 0;
   background-color: #f0f0d2;
-  z-index: 3;
+  z-index: 100;
+  font-size: 0.8rem;
 }
 
 nav ul {
-  list-style: none;
+  /*list-style: none;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-start;*/
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  clear: right;
 }
 
 nav ul li {
@@ -117,8 +124,6 @@ nav ul li ul li {
     width: 100%;
   }
 }
-
-
 section {
 border:none;
 border-width: 0;
