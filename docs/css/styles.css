@@ -51,10 +51,10 @@ header {
 main {
   background-color: #e7c4e5;
   width: 70%;
-  height: 300%;
+  height: 500%;
   margin: 100px auto;
   padding: 25px;
-  overflow: scroll;
+  /* overflow: scroll; */
   line-height: 2;
   box-shadow: 0 0 100px burlywood;
 }
@@ -127,6 +127,14 @@ text-align: center;
 font-size: large;
 line-height: 1;
 }
+@media screen and (max-width: 680px) {
+figure {
 
-
-
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+}
+main {
+width: 100%;
+}
+}

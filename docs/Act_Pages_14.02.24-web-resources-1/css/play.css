@@ -137,8 +137,12 @@ li.home {
     display: none;
   }
   
-  input[type="checkbox"]:checked ~ ul {
-    display: block;
+  input[type="checkbox"]:checked ~ ul { 
+  display: block;
+  }
+
+input[type="checkbox"] { 
+    display: none;
   }
 
   nav ul {
