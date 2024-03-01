@@ -41,6 +41,9 @@ nav {
   z-index: 100;
   box-shadow: 0 4px 8px 0 burlywood;
 }
+input[type="checkbox"] {
+  display: none;
+}
 
 .hamburger{
   display: none;
@@ -141,7 +144,7 @@ li.home {
   display: block;
   }
 
-input[type="checkbox"] { 
+  input[type="checkbox"] { 
     display: none;
   }
 
