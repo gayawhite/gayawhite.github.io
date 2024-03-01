@@ -288,7 +288,7 @@ img {
   position: fixed;
   bottom: 2px;
   right: 8px;
-  opacity: 0.5;
+  opacity: 8;
   font-size: 50px;
   z-index: 102;
 }
@@ -359,7 +359,7 @@ font-weight: bolder;
 
 }
 .stagedirection {
-  text-align: center;
+  text-align: right;
   list-style-type: upper-roman;
   font-weight: bolder;
   font-size: 1rem;
