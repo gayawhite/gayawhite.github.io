@@ -347,6 +347,15 @@ font-weight: bolder;
 
 }
 
+.TheEnd {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 10px;
+  /* background-image: linear-gradient(to top, #d138ca, #8f5b7f, #aa517a); */
+  margin-top: 2rem;
+}
+
 .firstscene {
   width: 100%;
   height:100%;
