@@ -34,11 +34,11 @@ nav {
   width: 100%;
   position: fixed;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 0.8rem;
+  font-size: 0rem;
   top: 0px;
   left: 0;
   background-color:#f0f0d2;
-  z-index: 100;
+  /* z-index: 100; */
   box-shadow: 0 4px 8px 0 burlywood;
 }
 input[type="checkbox"] {
@@ -226,7 +226,7 @@ audio {
   border: solid #ce97cc;
   padding: 10px;
   margin: 10px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: #510126;
 
 }
@@ -322,14 +322,31 @@ font-weight: bolder;
 }
 
 .dramatishead {
-  width: 100%;
+  /*width: 100%;
   height:100%;
   background-color: #f0d8d2;
   list-style-type: upper-roman;
   text-align: center;
   margin:  2px;
-  padding: 2px;
+  padding: 2px;*/
+  width: 100%;
+  height:100%;
+  background-color: #f0f0d2;
+  list-style-type: upper-roman;
+  color: #510126;
+  text-align: center;
+  margin:  2px;
+  padding: 4px;
+  font-size: 2rem;
+  padding-top: 1rem;
 
+}
+
+.Kissing {
+margin: auto;
+margin-bottom: 1rem;
+padding: 20px;
+background-color: #ce97cc;
 }
 
 .location {
@@ -408,4 +425,18 @@ font-weight: bolder;
 .stage_directions_inline {
   
 }
+.span_class {
+  text-align: center;
+  list-style-type: upper-roman;
+  font-weight: bolder;
+  font-size: larger;
+  color:#510126;
+  margin-top:3rem;
+  margin-bottom: 1rem;
+  }
+  #content1::before{
+      content: "\a";
+      white-space: pre;
+  }
+  
 
